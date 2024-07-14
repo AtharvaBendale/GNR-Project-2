@@ -1,0 +1,7 @@
+Implemented the UNet model architecture for image deblurring
+The script inference.py loads the model and calculates output of a set of low resolution images ang calculates the PSNR values
+The file deblur_image.py is the main training script, you can do "python3 deblur_image.py --help" for help regarding the required inputs
+All the training logs are saved inside training.log file
+The file model_summary.txt contains information regarding the numbers of params in the modle (Total parameters 8,438,403)
+The file unet_model contains the code for the UNet network, the file unet_utils contains code for any helper functions/classes used in the model
+PSNR Score achieved : 26.3968
